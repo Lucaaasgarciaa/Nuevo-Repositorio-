@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-notion-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que recuerda tus tareas de Notion y programa mensajes a clientes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucaaasgarciaa/Nuevo-Repositorio-.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lucaaasgarciaa/Nuevo-Repositorio-/issues"
+  },
+  "homepage": "https://github.com/Lucaaasgarciaa/Nuevo-Repositorio-#readme",
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}
